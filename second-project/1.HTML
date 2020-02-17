@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         @media (min-width: 480px) and (max-width: 680px) {
   nav li {
+    width: 100%;
     text-align: center;
   }
   nav ul {
@@ -17,16 +22,24 @@
   }
 }
         @media screen and (min-width: 680px) {
-  nav li:first-child {
-    padding-left: 30px;
-  }
+
   nav li {
     list-style-type: none;
     display: inline-block;
-    padding-right: 30px;
+    
+    text-align: center;
   }
+  
 }
-
+img{
+      width: 100%;
+      height: auto;
+  }
+  nav li {
+      width: 200px;
+    text-align: center;
+  }
+  
 
     </style>
 </head>
