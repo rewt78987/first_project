@@ -8,6 +8,7 @@
         *{
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
         @media (min-width: 480px) and (max-width: 680px) {
   nav li {
@@ -20,6 +21,14 @@
     -webkit-columns: 2;
     -moz-columns: 2;
   }
+  .ss{
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      margin: 0% auto;
+     
+    
+  }
 }
         @media screen and (min-width: 680px) {
 
@@ -30,6 +39,8 @@
     text-align: center;
   }
   
+  
+     
 }
 img{
       width: 100%;
@@ -38,12 +49,28 @@ img{
   nav li {
       width: 200px;
     text-align: center;
-  }
   
+ 
+    
+  }
+  li{
+    
+margin: 0 auto;;
+    display: inline;
+  }
+  .ss{
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      margin: 20% 20%;
+     
+    
+  }
 
     </style>
 </head>
 <body>
+    <div class="ss">
     <nav>
         <ul id="nav">
             <li>
@@ -78,39 +105,7 @@ img{
             </li>
         </ul>
       </nav>
-      <nav>
-        <ul id="nav">
-            <li>
-              
-                <img src="img/01.png">
-
-            </li>
-            <li>
-              
-                <img src="img/01.png">
-
-            </li>
-            <li>
-              
-                <img src="img/01.png">
-
-            </li>
-            <li>
-              
-                <img src="img/01.png">
-
-            </li>
-            <li>
-              
-                <img src="img/01.png">
-
-            </li>
-            <li>
-              
-                <img src="img/01.png">
-
-            </li>
-        </ul>
-      </nav>
+    </div>
+     
 </body>
 </html>
