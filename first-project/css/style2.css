@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) and (min-width: 1000px) {
+    #B {
+        width: 5%;
+      
+    }
+    #CB {
+        width: 30%;
+        margin: 0 auto;
+    }
+    #B ul {
+    display: block;
+    }
+}
+@media  (max-width: 300px) and (min-width: 600px) {
+    #B {
+        width: 5%;
+      
+    }
+    #CB {
+        width: 30%;
+        margin: 0 auto;
+        
+    }
+}
